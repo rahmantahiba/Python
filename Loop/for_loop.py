@@ -62,6 +62,30 @@ def nested():
         for j in range(p):
             print("*", "\n")
 
+#Review 
+
+def various_sum():
+    initial = 0
+    ask = int(input("Enter the amount of numbers to add: "))
+    for start in range(ask + 1): #Ask + 1 so it can 1+2+3 etc...
+        initial += start
+    print("The sum is:", initial)
+
+def square():
+    begin = 0
+    use = int(input("Enter the number to perform exponent: "))
+    for b in range(10):
+        expo = begin**use
+        begin += 1
+        print(b, "^", use, "=", expo)
+        
+def odd_even():
+    for i in range(10): 
+        if(i % 2 == 0):
+            print(i, "Even")
+        else:
+            print(i, "Odd")
+
 def main():
     starter()
     multiple()
@@ -71,5 +95,8 @@ def main():
     list_name()
     index()
     nested()
+    various_sum()
+    square()
+    odd_even()
 
 main()
