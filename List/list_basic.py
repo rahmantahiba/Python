@@ -48,9 +48,9 @@ def take_length():
     print(len(l))
 
 def main():
-    #true()
-    #false()
-    #slice()
+    true()
+    false()
+    slice()
     take_length()
 
 main()
