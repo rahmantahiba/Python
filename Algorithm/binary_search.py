@@ -1,6 +1,6 @@
 """"
 
-Note-Taking: Iterative and recursive method for binary search
+Note-Taking: Iterative method for binary search
 
 """
 
@@ -39,7 +39,7 @@ result = binarySearch(array,k,0,len(array)-1)
 """
 
 if result != -1:
-    print("Element is present at index:", str(result)) #For int to be turned to a string
+    print("Element is present at index:" + str(result)) #For int to be turned to a string
 
 else:
     print("Element not found")
